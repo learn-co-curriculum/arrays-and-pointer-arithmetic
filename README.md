@@ -1,6 +1,6 @@
 # Arrays and Pointer Arithmetic
 
-To understand the algorithmic complexity of a data structure, one must understand the data structure.
+To understand the algorithmic complexity of a data structure,* one must understand the data structure*.
 
 ## Introduction
 
@@ -52,3 +52,5 @@ Here's a good resource from The University of Maryland that even has pictures: [
 ## Doing stuff
 
 Now it's time to do stuff! Look at the source code in arrays.c and follow the instructions.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/arrays-and-pointer-arithmetic'>Arrays And Pointer Arithmetic</a> on Learn.co and start learning to code for free.</p>
