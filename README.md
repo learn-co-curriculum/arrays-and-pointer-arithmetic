@@ -33,7 +33,7 @@ for(int i = 0; i < array_length; i++) {
 
 ## How does this stuff actually work though?
 
-In C, you only know 3 things about an array, how much space it takes up, where it starts, and what data type it contains. Recall `int array[5];`. This code allocates contiguous memory that is the size of 5 integers and stores the memory address of the array in the variable `array`.
+In C, you only know three things about an array, how much space it takes up, where it starts, and what data type it contains. Recall `int array[5];`. This code allocates contiguous memory that is the size of 5 integers and stores the memory address of the array in the variable `array`.
 
 Say we access the element at index 2, `array[2]`. Ruby's not the only language that's nice to developers, this is actually syntactic sugar!
 
@@ -52,3 +52,5 @@ Here's a good resource from The University of Maryland that even has pictures: [
 ## Doing stuff
 
 Now it's time to do stuff! Look at the source code in arrays.c and follow the instructions.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/arrays-and-pointer-arithmetic'>Arrays And Pointer Arithmetic</a> on Learn.co and start learning to code for free.</p>
