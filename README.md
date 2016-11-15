@@ -4,8 +4,8 @@ To understand the algorithmic complexity of a data structure,* one must understa
 
 ## Introduction
 
-In some programming languages, such as Ruby, arrays are abstracted away. A Ruby array can be treated like a linked list, a stack, or an array. After this lesson, we will better understand the implementation of an array and what kind of performance we can expect, even in cases where we are presented with an abstract version of an array. 
-But first, we need to learn about memory.
+**In some programming languages, such as Ruby, arrays are abstracted away. A Ruby array can be treated like a linked list, a stack, or an array. After this lesson, we will better understand the implementation of an array and what kind of performance we can expect, even in cases where we are presented with an abstract version of an array. 
+But first, we need to learn about memory.**
 
 ## Memory
 
