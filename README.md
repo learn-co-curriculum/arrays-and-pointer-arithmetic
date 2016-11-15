@@ -1,11 +1,11 @@
 # Arrays and Pointer Arithmetic
 
-To understand the algorithmic complexity of a data structure, one must understand the data structure.
+To understand the algorithmic complexity of a data structure,* one must understand the data structure*.
 
 ## Introduction
 
-In some programming languages, such as Ruby, arrays are abstracted away. A Ruby array can be treated like a linked list, a stack, or an array. After this lesson, we will better understand the implementation of an array and what kind of performance we can expect, even in cases where we are presented with an abstract version of an array. 
-But first, we need to learn about memory.
+**In some programming languages, such as Ruby, arrays are abstracted away. A Ruby array can be treated like a linked list, a stack, or an array. After this lesson, we will better understand the implementation of an array and what kind of performance we can expect, even in cases where we are presented with an abstract version of an array. 
+But first, we need to learn about memory.**
 
 ## Memory
 
@@ -52,3 +52,5 @@ Here's a good resource from The University of Maryland that even has pictures: [
 ## Doing stuff
 
 Now it's time to do stuff! Look at the source code in arrays.c and follow the instructions.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/arrays-and-pointer-arithmetic'>Arrays And Pointer Arithmetic</a> on Learn.co and start learning to code for free.</p>
