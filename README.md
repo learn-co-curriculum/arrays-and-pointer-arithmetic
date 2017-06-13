@@ -1,6 +1,6 @@
 # Arrays and Pointer Arithmetic
 
-To understand the algorithmic complexity of a data structure,* one must understand the data structure*.
+To understand the algorithmic complexity of a data structure, *one must understand the data structure*.
 
 ## Introduction
 
