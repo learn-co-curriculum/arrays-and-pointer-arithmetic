@@ -45,7 +45,7 @@ And now, we can say with confidence that accessing an array element is O(1) beca
 
 Like-wise, writing to an array is also O(1), we calculate the memory address we want to write to, then we write to it.
 
-We also see that there's no way to know the contents of the array without additional logic or data structures, so finding a specific element in an array is O(n) because we would have to look at every element in the array.
+We also see that there is no way to know the contents of the array without additional logic or data structures, so finding a specific element in an array is O(n) because we would have to look at every element in the array.
 
 Here's a good resource from The University of Maryland that even has pictures: [Pointer Arithmetic](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/Figs/arr2.png)
 
