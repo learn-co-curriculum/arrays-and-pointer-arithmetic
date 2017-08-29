@@ -1,56 +1,21 @@
-# Arrays and Pointer Arithmetic
+>Hey, this is Avi Flombaum, co-founder & dean at Flatiron School. Congrats on getting started with our online Bootcamp Prep >course! After this 3-lesson (~5-minute) orientation, you’ll get an email from Flatiron School with your access link to the >full course, which is only accessible on a computer. With your access link, you’ll unlock over 75 hours of free coding >lessons – you’ve got a lot to be excited about! 
+>There are just a few steps (5 mins or less) to complete this orientation, then you’ll be setup to start really coding. So, >from me and the whole team here at Flatiron School, good luck. We can’t wait to help you learn to love code. 
 
-To understand the algorithmic complexity of a data structure, *one must understand the data structure*.
+Learn, Love, Code // <3 
+Avi Flombaum
 
-## Introduction
+**Bootcamp Prep Course Overview:** 
 
-**In some programming languages, such as Ruby, arrays are abstracted away. A Ruby array can be treated like a linked list, a stack, or an array. After this lesson, we will better understand the implementation of an array and what kind of performance we can expect, even in cases where we are presented with an abstract version of an array. 
-But first, we need to learn about memory.**
+75+ hours of JavaScript, Ruby, and interview prep completely free. 
+Challenging yet beginner friendly curriculum.
+Expect a different experience than other online courses: you’ll code like a real engineer using our custom-built terminal and integration with GitHub.
+Support available in real-time from other students and  our technical coaches.
 
-## Memory
+**Upon Completion of this Course You'll:**
 
-In case you forgot, memory is the part of the computer where we store data we are actively working with. It is separate from the hard drive because we can read and write to it more quickly. In order to achieve this speed boost, memory sacrifices the ability to remember data without a steady supply of electricity. If the power shuts off, the data goes away, so that is why we "save" our work to the hard drive.
+Have a solid coding foundation + portfolio projects
+Be equipped to get into top coding bootcamps
+Be a priority Flatiron School candidate, where over 97% of job-seeking grads have been hired
 
-Computers interface with memory using numerical addresses. Typically, the hexadecimal number system is used because it maps really nicely to binary data.
+In the next two lessons, you’ll get a quick curriculum overview and receive our top X tips for successfully learning to code. Then, you’ll be ready to dive into the full course from your computer using the access link we emailed you. 
 
-## Creating an array
-
-An array is a contiguous portion of memory that we allocate for our program to use.
-
-Contiguous? That's not an ancient Greek philosopher, we are saying that the memory used for the array can be referenced by a series of consecutive memory addresses, i.e. 0x7fff5038c2c0, 0x7fff5038c2c1, 0x7fff5038c2c2, etc.
-
-Allocate? That's not a Mexican beer, that's a word used to describe the process of reserving a portion of memory of a given size for use by the program.
-
-## Using an array
-
-At this point we're all used to using an array. In C we peform those operations like this: create an array `int array[10]`, read from an array, `array[3]`, write to an array `array[4] = 8`, and loop over an array:
-
-```c
-for(int i = 0; i < array_length; i++) {
-  printf("%d\n", array[i]);
-}
-```
-
-## How does this stuff actually work though?
-
-In C, you only know 3 things about an array, how much space it takes up, where it starts, and what data type it contains. Recall `int array[5];`. This code allocates contiguous memory that is the size of 5 integers and stores the memory address of the array in the variable `array`.
-
-Say we access the element at index 2, `array[2]`. Ruby's not the only language that's nice to developers, this is actually syntactic sugar!
-
-It is equivalent to: `*(array + 2)`. `array` is the beginning of the array, `2` is how far to jump ahead in memory (C knows the array contains integers, so if your ints are 32 bits, then it will automatically add 2 * 32 bits), and then finally `*` means "get the value at the following memory address".
-
-Congratulations, you now know pointer arithmetic!
-
-And now, we can say with confidence that accessing an array element is O(1) because no matter what array we have an what element we access, it will always be a single addition operation and a memory look up.
-
-Like-wise, writing to an array is also O(1), we calculate the memory address we want to write to, then we write to it.
-
-We also see that there is no way to know the contents of the array without additional logic or data structures, so finding a specific element in an array is O(n) because we would have to look at every element in the array.
-
-Here's a good resource from The University of Maryland that even has pictures: [Pointer Arithmetic](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/Figs/arr2.png)
-
-## Doing stuff
-
-Now it's time to do stuff! Look at the source code in arrays.c and follow the instructions.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/arrays-and-pointer-arithmetic'>Arrays And Pointer Arithmetic</a> on Learn.co and start learning to code for free.</p>
